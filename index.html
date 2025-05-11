@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa Sonoro UNSAM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="map-container">
+        <img src="assets/mapa-campus-2019.jpg" alt="Mapa Campus UNSAM" class="map-image">
+        <div class="hotspot" style="top: 63%; left: 56%;" onmouseover="showPopup()" onmouseout="hidePopup()"></div>
+        <div id="popup" class="popup">
+            <img src="assets/4.jpg" alt="Foto del Mensa">
+            <p>
+                El murmullo del MENSA también alimenta. Es inevitable la analogía: la universidad nos nutre, nos alimenta, nos sostiene.
+                El acto de compartir el alimento es probablemente una de las fuentes más antiguas de contacto humano. Hay algo en la pausa del comer que invita a bajar toda guardia y a escuchar;
+                nos alimentamos también del ambiente, de la compañía, del momento. En el MENSA, mientras nos damos tiempo y espacio para alimentarnos, oímos saludos, conversaciones pequeñas,
+                golpes de cucharón, y la circulación es continua durante sus dos horas de vida diaria abiertas a la comunidad. Continua y horizontal: estudiantes, docentes,
+                no docentes y visitantes la componen. Alimentarse, cómo lo hacemos y desde dónde, es también político; es también enseñar y aprender, es habitar el espacio y habilitar el contacto.
+                En ese murmullo constante, el MENSA no solo sacia el hambre; alimenta las conexiones humanas, fortalece el tejido colectivo y recuerda, en cada pausa para compartir, que somos parte de un todo.
+            </p>
+            <audio controls>
+                <source src="assets/mensa.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
